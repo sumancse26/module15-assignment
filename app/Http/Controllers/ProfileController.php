@@ -18,6 +18,7 @@ class ProfileController extends Controller
             'age' => $age
         ];
 
+        //define cookie properties
         $CookieName = "access_token";
         $value = "123-XYZ";
         $minutes = 1;
